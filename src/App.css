@@ -1,0 +1,19 @@
+.app{
+  display: grid;
+  grid-template-rows: 150px auto;
+}
+
+.app_main{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 10%;
+}
+
+.search_input{
+  position: relative;
+  width: 33%;
+  display: flex;
+  left: 33.33%;
+  right: 33.33%;
+  height: 30px;
+}
